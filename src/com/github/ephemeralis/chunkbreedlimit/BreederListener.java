@@ -151,7 +151,9 @@ public class BreederListener implements Listener {
 				p.getItemInHand().getType() == Material.RAW_BEEF ||
 				p.getItemInHand().getType() == Material.PORK ||
 				p.getItemInHand().getType() == Material.COOKED_BEEF ||
-				p.getItemInHand().getType() == Material.RAW_FISH)
+				p.getItemInHand().getType() == Material.RAW_FISH ||
+				p.getItemInHand().getType() == Material.CARROT ||
+				p.getItemInHand().getType() == Material.SEEDS)
 				&& allowedEntities.contains(event.getRightClicked().getType()))
 		{
 			int entcount = 0;

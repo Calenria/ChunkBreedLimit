@@ -3,7 +3,7 @@
 # breeding-fail-msg: message sent to the player when breeding is disabled due to chunk capacity
 
 spawn-cap: 100
-breeding-fail-msg: "The animal shuffles about nervously.. It is too crowded for it to breed!"
+breeding-fail-msg: "Das Tier schaut nervös zu allen Seiten .. Es ist zu überfüllt um hier zu Züchten!"
 
 entity-list:
   - pig
@@ -15,7 +15,7 @@ entity-list:
 use-individual-cap: true
 #entity-list-individual: (entitytype, spawnlimit)
 entity-list-individual:
-  - pig, 50
-  - cow, 50
-  - chicken, 25
-  - sheep, 25
+  - pig, 5
+  - cow, 5
+  - chicken, 5
+  - sheep, 5

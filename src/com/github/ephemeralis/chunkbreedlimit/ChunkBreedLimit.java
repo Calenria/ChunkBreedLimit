@@ -21,7 +21,7 @@ public class ChunkBreedLimit extends JavaPlugin {
 		this.saveDefaultConfig();
 		entitySpawnCap = this.getConfig().getInt("spawn-cap", 100);
 		boolean individualCap = this.getConfig().getBoolean("use-individual-cap", false);
-		String breedingFailMessage = this.getConfig().getString("breeding-fail-msg", "The animal cannot breed - it is too crowded!");
+		String breedingFailMessage = this.getConfig().getString("breeding-fail-msg", "Das Tier schaut nervös zu allen Seiten .. Es ist zu überfüllt um hier zu Züchten!");
 		
 		if (individualCap)
 		{
